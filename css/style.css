@@ -1,27 +1,29 @@
 body{
     margin: 0;
-    font-family: 'Slabo 27px', serif;
-    background-color: #363b3f;
+    font-family: 'Roboto', sans-serif;
+    background-color: #26292c;
+    
 }
 
 #game_image{
-    width: 10%;
-    height: 100px;
+    width: 100%;
 }
 
 .content1{
     float: left;
-    width: 250px;
-    padding: 100px;
+    width: 520px;
+    padding: 50px;
     position: relative;
+    color: #e0e0e0;
 }
 
 .footer{
-    height: 100px;
+    height: 40px;
     text-align: center;
-    background-color: white;
-    color: black;
+    background-color:#e0e0e0;
+    color: #26292c;
     clear: both;
 }
+
 
 
