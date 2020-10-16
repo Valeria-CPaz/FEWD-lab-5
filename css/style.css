@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    font-family: 'Slabo 27px', serif;
+    background-color: #363b3f;
+}
+
+#game_image{
+    width: 10%;
+    height: 100px;
+}
+
+.content1{
+    float: left;
+    width: 250px;
+    padding: 100px;
+    position: relative;
+}
+
+.footer{
+    height: 100px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    clear: both;
+}
+
+
