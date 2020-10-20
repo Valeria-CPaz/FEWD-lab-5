@@ -7,6 +7,9 @@ body{
 
 #game_image{
     width: 100%;
+    border-style: dotted;
+    border-width: 10px;
+    border-color: #df2344;
 }
 
 .content1{
@@ -16,14 +19,38 @@ body{
     position: relative;
     color: #e0e0e0;
 }
+h1{
+    text-align: center;
+}
 
 .footer{
-    height: 40px;
+    height: 85px;
     text-align: center;
     background-color:#e0e0e0;
     color: #26292c;
     clear: both;
 }
 
+hr {
+  border:none;
+  border-top:12px dotted #f00;
+  color:#df2344;
+  background-color:#e0e0e0;
+  width:100%;
+  position: center;
+}
+
+#pacman {
+  width: 1px;
+  height: 1px;
+  border: 30px solid #df2344;
+  border-right-color: transparent;
+  border-radius: 80%;
+  z-index: 10;
+  position: absolute;
+  left: 82px;
+  bottom: 135px;
+
+}
 
 
